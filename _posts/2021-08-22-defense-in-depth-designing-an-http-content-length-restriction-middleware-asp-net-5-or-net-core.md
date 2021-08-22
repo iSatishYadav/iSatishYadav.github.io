@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Defense In-Depth: Designing an HTTP Content Length Restriction Middleware - ASP.NET 5 (or .NET Core)
+title: Defense In-Depth — Designing an HTTP Content Length Restriction Middleware - ASP.NET 5 (or .NET Core)
 tags: ["defence in depth", "middleware", "content length"]
 ---
 
