@@ -74,16 +74,16 @@ Since you don't have any sort of `TPM`, add follwoing registry after booting fro
 
 ![image](https://user-images.githubusercontent.com/4049421/136686065-86d63f79-860a-4698-b2b0-092b04599dc9.png)
 
-2.3 Add new `DWORD` named `BypassTMPCheck` and change the value to `1`.
+2.3 Add new `DWORD` named `BypassTPMCheck` and change the value to `1`.
 
-![image](https://user-images.githubusercontent.com/4049421/136686133-adac3bcf-bfa6-4adf-94bb-6d1182e0f29c.png)
+![image](https://user-images.githubusercontent.com/4049421/136688280-6196e2bd-d973-4fe5-a9db-cf4b49489b44.png)
 
 2.4 Continue with the setup.
 
 ### 3. If you don't have Secure Boot
 3.1. Follow till step# 2.3 and add a `DWORD` named `BypassSecureBootCheck` and change the value to `1`.
 
-![image](https://user-images.githubusercontent.com/4049421/136686188-1b852754-6acc-4194-8d48-26a5e74c2a7c.png)
+![image](https://user-images.githubusercontent.com/4049421/136688612-769fbdf9-0308-4bfc-986f-62206b95db14.png)
 
 3.2. Continue with the setup.
 
