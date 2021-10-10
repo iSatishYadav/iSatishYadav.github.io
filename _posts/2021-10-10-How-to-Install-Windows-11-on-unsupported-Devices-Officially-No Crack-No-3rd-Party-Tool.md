@@ -1,4 +1,9 @@
-# How to Install Windows 11 on unsupported Devices - Officially - No Crack - No 3rd Party Tool
+---
+layout: post
+title: How to Install Windows 11 on unsupported Devices - Officially - No Crack - No 3rd Party Tool
+tags: ["Windows 11", "TPM", "Install Windows 11"]
+---
+
 So you wanted the new Windows 11 everyone's talking about, but got a dreadful message liked that:
 
 > This PC doesn't currently meet Windows 11 system requirements:
