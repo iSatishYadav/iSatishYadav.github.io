@@ -50,3 +50,4 @@ Did I miss any other cool feature? Let me know.
 
 Happy Coding! 👨‍💻
 
+Originally posted at [https://blog.satishyadav.com/SQL-Server-2022-First-Look-Top-5-New-Features-Bonus-5-Features/](https://blog.satishyadav.com/SQL-Server-2022-First-Look-Top-5-New-Features-Bonus-5-Features/)
