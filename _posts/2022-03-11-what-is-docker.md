@@ -9,7 +9,7 @@ Docker is an open source platform for building, deploying, and managing containe
 It is based on the idea that you can package your code with dependencies into a deployable unit called a "container" that has everything the software needs to run including libraries, system tools, code, and runtime. 
 
 
-![Docker logo](images/docker%20logo.png)
+![Docker logo](https://raw.githubusercontent.com/iSatishYadav/iSatishYadav.github.io/master/images/docker%20logo.png)
 
 
 ## Wait, but what's a "Container"?
@@ -21,7 +21,7 @@ Containers are made possible by process isolation and virtualization capabilitie
 * Greater resource efficiency
 * Improved developer productivity
 
-![Docker](images/docker.jpeg)
+![Docker](https://raw.githubusercontent.com/iSatishYadav/iSatishYadav.github.io/master/images/docker.jpeg)
 
 ## That's too much of jargons, can you give me a simple analogy?
 Perhaps a simple analogy can help getting the grasp of the core concept of Docker...
@@ -60,7 +60,7 @@ Docker is so popular today that `Docker` and `containers` are used interchangeab
 
 ## But we already have Virtual Machines? Why Containers?
 
-![Container vs VM](images/container-vm.png)
+![Container vs VM](https://raw.githubusercontent.com/iSatishYadav/iSatishYadav.github.io/master/images/container-vm.png)
 
 Containers | Virtual Machines
 -|-
@@ -90,7 +90,7 @@ Docker daemon is a service running on your operating system, such as Microsoft W
 ### Docker registry
 A Docker registry is a scalable open-source storage and distribution system for docker images. The registry enables you to track image versions in repositories, using tagging for identification. This is accomplished using Git, a version control tool.
 
-![Images](images\architecture.svg)
+![Images](https://raw.githubusercontent.com/iSatishYadav/iSatishYadav.github.io/master/images/architecture.svg)
 
 ## When to use Docker
 You can use Docker containers as a core building block creating modern applications and platforms. Docker makes it easy to build and run distributed microservices architecures, deploy your code with standardized continuous integration and delivery pipelines, build highly-scalable data processing systems, and create fully-managed platforms for your developers. 
@@ -115,7 +115,7 @@ Kubernetes is an open-source container orchestration platform descended from a p
 
 Kubernetes schedules and automates tasks integral to the management of container-based architectures, including container deployment, updates, service discovery, storage provisioning, load balancing, health monitoring, and more.
 
-![Kubernetes](images/kubernetes.png)
+![Kubernetes](https://raw.githubusercontent.com/iSatishYadav/iSatishYadav.github.io/master/images/kubernetes.png)
 
 ## Next steps
 Visit official Docker website to learn more. All major clouds e.g. Azure, AWS, Google Cloud have Containers offerings, visit their sites for more info.
