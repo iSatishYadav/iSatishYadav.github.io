@@ -1,4 +1,8 @@
-# Automate Windows Software and Apps' installation
+---
+layout: post
+title: Automate Windows Software and Apps' installation!
+tags: ["windows", "automation", "chocolatey"]
+---
 
 ## Why?
 If you've installed Windows enough times, you already know the pain of installing all your Software and Apps again and again. If you haven't, let me save you the pain and show you how to:
