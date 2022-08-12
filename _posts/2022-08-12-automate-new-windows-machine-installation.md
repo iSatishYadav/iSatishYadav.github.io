@@ -117,4 +117,8 @@ That's it! This is how you can automate the installation of your favorite Softwa
 
 If you liked this, please like and share this post. And visit https://github.com/iSatishYadav/AutomateWindowsSoftwareInstallation and give this repo a star.
 
+Originally posted at:
+
+https://blog.satishyadav.com/automate-new-windows-machine-installation/?utm_source=blog_&utm_medium=plug
+
 Happy Hacking!
