@@ -13,9 +13,10 @@ If you've installed Windows enough times, you already know the pain of installin
 
 What we need here is something called Package Manager, which we can give some commands and it would install the software from the command line itself.
 
-Why command line - so that we can repeat the process.
+Why command line — so that we can repeat the process.
 
-Windows doesn't have an official Package Manager, but [Chocolatey](https://chocolatey.org/) is your safest bet.
+~~Windows doesn't have an official Package Manager yet~~, but [Chocolatey](https://chocolatey.org/) is your safest bet.
+> Windows has gotten `winget` but it's relatively new and community support/references are much better for Chocolatey. 
 
 So here's what we're going to do, we need to search and list down all the software that we typically install and save that command at a place where we can refer it later. It can be on any of Drives (Google Drive, OneDrive) or if you're a developer or power user (whatever that is) - on a Git repo. I don't care, as long as you have the access to it when the time comes.
 
@@ -110,7 +111,8 @@ nodejs-lts v14.18.0 already installed.
 Chocolatey installed 0/2 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 ````
-
+## Bonus
+You can host the `packages.config` file on `GitHub` or store it in any cloud to refer later. 
 ## Conclusion
 
 That's it! This is how you can automate the installation of your favorite Software and Apps in a repeatable way.
