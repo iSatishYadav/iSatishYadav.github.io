@@ -111,8 +111,6 @@ nodejs-lts v14.18.0 already installed.
 Chocolatey installed 0/2 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 ````
-## Bonus
-You can host the `packages.config` file on `GitHub` or store it in any cloud to refer later. 
 ## Conclusion
 
 That's it! This is how you can automate the installation of your favorite Software and Apps in a repeatable way.
