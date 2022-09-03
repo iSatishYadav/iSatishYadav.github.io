@@ -9,17 +9,17 @@ You are working on a cool new project, want to implement the amazing new design 
 
 > So you bought some time by writing "not so good code" to meet the deadline.
 
-Let this sink in for a memoment.
+Let this sink in for a moment.
 
 You know that the code that you had written needs to be refactored, but you don't have the bandwidth (not the internet one) to do so, so you live with this "bad code" - aka `technical debt`.
 
-Well, debts inherently aren't bad, you take debts all the time - Credit Cards, Car Loan, House Loan. But you need to pay the intereset, and as long you re-pay, it's well and good. Same goes for the technical debt. It's a trade-off between Product Delivery and impeccable code.
+Well, debts inherently aren't bad, you take debts all the time - Credit Cards, Car Loan, House Loan. But you need to pay the interest, and as long you re-pay, it's well and good. Same goes for the technical debt. It's a trade-off between Product Delivery and impeccable code.
 
 ## How do I know that I have a Technical Debt
 
 Some times ago, I did not have any single tool which can give a clear idea what kind of and how much technical debt I have. 
 
-I was looking at different metrics e.g., Code Duplication, Cyclometric Complexity, Test Coverage, Dependency and Coupling, and more to get an idea.
+I was looking at different metrics e.g., Code Duplication, Cyclomatic Complexity, Test Coverage, Dependency and Coupling, and more to get an idea.
 
 Then I stumbled upon [`NDepend`](https://www.ndepend.com/?utm_source=blog.satishyadav.com&utm_medium=technical_debt_blog_post).
 
@@ -54,13 +54,13 @@ Visit their [official site](https://www.ndepend.com/?utm_source=blog.satishyadav
 
 _NDepende team was generous to give me a copy of their license to try out the product_
 
-If you're new to NDepend or want to know how to install and get started, folks at NDepend have written a wonderfull step-by-step documentation.
+If you're new to NDepend or want to know how to install and get started, folks at NDepend have written a wonderful step-by-step documentation.
 
-> Thing I like about NDepend is, it gives me a visual dashboard which is actionable. And all the data it provides, it has LINQ queryies to support that and accomodate custom rules as well.
+> Thing I like about NDepend is, it gives me a visual dashboard which is actionable. And all the data it provides, it has LINQ queries to support that and accommodate custom rules as well.
 
 ## How to find out Technical Debt
 
-For this post, I've taken the [Clean Architecure repo](https://github.com/jasontaylordev/CleanArchitecture?utm_source=blog.satishyadav.com&utm_medium=technical_debt_blog_post) from [Jason Taylor](https://github.com/jasontaylordev?utm_source=blog.satishyadav.com&utm_medium=technical_debt_blog_post). If you don't know Jason, he's the Clean Architecure guy, a great developer, trainer, architect, and more.
+For this post, I've taken the [Clean Architecture repo](https://github.com/jasontaylordev/CleanArchitecture?utm_source=blog.satishyadav.com&utm_medium=technical_debt_blog_post) from [Jason Taylor](https://github.com/jasontaylordev?utm_source=blog.satishyadav.com&utm_medium=technical_debt_blog_post). If you don't know Jason, he's the Clean Architecture guy, a great developer, trainer, architect, and more.
 
 Once you clone the repo in Visual Studio, here's how the Project structure looks like:
 
@@ -72,7 +72,7 @@ An Angular SPA with Application Layer, Domain Layer, Infrastructure Layer - basi
 Attached the NDepend to this solution:
 ![attach-to-solution](/images/attach-to-solution.png)
 
-NDepend will detect the projects and excelude test projects. Click on Analyse X NET Assemblies.
+NDepend will detect the projects and exclude test projects. Click on Analyze X NET Assemblies.
 
 ![pre-run](/images/pre-run.png)
 
@@ -84,7 +84,7 @@ Click on the View NDepend Dashboard.
 
 
 ## Dashboard
-The dashboard gives you plethora of imformation about the Project code quality, lines of code, issues, comments, but we're interested in technical debt.
+The dashboard gives you plethora of information about the Project code quality, lines of code, issues, comments, but we're interested in technical debt.
 
 ![dashboard](/images/project-dashboard.png)
 
@@ -94,7 +94,7 @@ In this case, you can see there is a 5.56% of technical debt. Well done, Jason!
 
 Amazing, right?
 
-Additionally, it gives us the Ratin of the project based on Technical Debt. In our case *B*. Pretty good. And how much effort is required to reach to *A*.
+Additionally, it gives us the Rating of the project based on Technical Debt. In our case *B*. Pretty good. And how much effort is required to reach to *A*.
 
 ## Exploring Technical Debt
 
@@ -110,7 +110,7 @@ Click on a specific rule to find out the details  and what all code has contribu
 
 ![rule-detail](/images/rule-detail.png)
 
- In the abve example, our code base has voilated following rule:
+ In the above example, our code base has violated following rule:
 
  • Rule Name: Avoid namespaces dependency cycles
  • Rule Id: ND1401
