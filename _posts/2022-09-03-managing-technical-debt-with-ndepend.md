@@ -159,6 +159,6 @@ Here's the repo used in this post, give this a star:
 
 Originally posted at:
 
-[https://blog.satishyadav.com/2022-09-03-managing-technical-debt-with-ndepend](https://blog.satishyadav.com/2022-09-03-managing-technical-debt-with-ndepend)
+[https://blog.satishyadav.com/managing-technical-debt-with-ndepend](https://blog.satishyadav.com/managing-technical-debt-with-ndepend)
 
 Happy Coding!
