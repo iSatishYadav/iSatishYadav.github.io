@@ -1,3 +1,9 @@
+---
+layout: post
+title: 5 things I wish I knew before writing 1 Million lines of code
+tags: ["coding", "software development", "readability"]
+---
+
 Developers spend much more time reading the code than writing it. So, after optimizing code for time and space complexity — optimize it for reading complexity. There’s even a term for that — Cyclomatic Complexity.
 
 After having written more than 1 million lines of code and having read much more awful lot, here are the top 5 things I wish I knew sooner to write more readable code.
