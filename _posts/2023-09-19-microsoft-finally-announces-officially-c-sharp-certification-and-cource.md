@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microsoft Finally Accounces the Official C3 Certification
+title: Microsoft Finally Accounces the Official C# Certification
 tags: ["c#", "certification", "microsoft", "freeCodeCamp", "course"]
 ---
 Microsoft has [announced](https://shawt.io/r/sZx) the official C# certification [Foundational C# with Microsoft](https://shawt.io/r/sZw) in partnership with *FreeCodeCamp* — a popular online learning platform.
