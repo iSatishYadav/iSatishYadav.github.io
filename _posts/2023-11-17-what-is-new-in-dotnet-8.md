@@ -1,3 +1,8 @@
+---
+layout: post
+title: What's new in .NET 8?
+tags: ["dotner", "dotnet8", "c#"]
+---
 The release of .NET 8 heralds a new era in software development, marking a significant milestone in the evolution of the .NET ecosystem. This iteration introduces a plethora of groundbreaking technical enhancements designed to amplify the capabilities of developers and the performance of applications across various domains.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700160445142/1aaf3c33-72e4-457b-b1ae-0b0b8c2765da.png align="left")
