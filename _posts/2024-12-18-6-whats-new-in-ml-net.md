@@ -2,11 +2,13 @@
 layout: post
 title: "What's New in ML.NET"
 tags: ["ml.net","machinelearning","ai"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What’s new in ASP.NET Core 9.0](/5-whats-new-in-aspnet-core-9-0)  
-ML.NET continues to evolve as a full-featured, open-source machine learning framework for .NET developers, enabling you to create, train, and deploy custom ML models directly in your .NET applications. ML.NET 3.0 and 4.0 bring expanded capabilities for advanced AI scenarios—particularly around deep learning tasks, AutoML improvements, and enhanced tokenization support—making it easier to handle complex text and vision problems.
 
+ML.NET continues to evolve as a full-featured, open-source machine learning framework for .NET developers, enabling you to create, train, and deploy custom ML models directly in your .NET applications. ML.NET 3.0 and 4.0 bring expanded capabilities for advanced AI scenarios—particularly around deep learning tasks, AutoML improvements, and enhanced tokenization support—making it easier to handle complex text and vision problems.
+<!--more-->
 ## New Deep-Learning Tasks
 
 **Deep Learning with TorchSharp**  
@@ -52,7 +54,9 @@ Model Builder, the Visual Studio extension that provides a UI-based machine lear
 ---
 
 In summary, ML.NET’s recent updates extend the framework’s capabilities into advanced AI tasks such as object detection, NER, and QA, while improving automation via AutoML and simplifying text preprocessing with enhanced tokenization. These updates open the door to more sophisticated and production-ready machine learning solutions directly integrated into your .NET applications.
+
 [Next → What’s New in .NET MAUI for .NET 9](/7-whats-new-in-dotnet-maui-for-dotnet-9)
+
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 
 **Follow on social media:**

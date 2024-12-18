@@ -2,11 +2,13 @@
 layout: post
 title: "What's New in the .NET 9 Runtime"
 tags: ["runtime","jit","gc"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What's New in .NET 9](/1-whats-new-in-dotnet-9)  
-The .NET 9 runtime introduces a range of features and optimizations aimed at improving performance, reducing application size, enhancing security, and providing more flexible deployment options. These enhancements target both core runtime components and the JIT compiler, delivering faster execution times, smaller footprints, and safer execution environments.
 
+The .NET 9 runtime introduces a range of features and optimizations aimed at improving performance, reducing application size, enhancing security, and providing more flexible deployment options. These enhancements target both core runtime components and the JIT compiler, delivering faster execution times, smaller footprints, and safer execution environments.
+<!--more-->
 ## Attribute Model for Feature Switches with Trimming Support
 
 In .NET 9, two new attributes—`FeatureSwitchDefinitionAttribute` and `FeatureGuardAttribute`—help developers define feature switches that integrate with trimming and Native AOT. By using these attributes, you can toggle areas of functionality at build time, removing unused code paths and reducing application size.

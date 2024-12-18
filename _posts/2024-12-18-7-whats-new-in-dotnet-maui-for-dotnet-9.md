@@ -2,12 +2,13 @@
 layout: post
 title: "What's New in .NET MAUI for .NET 9"
 tags: ["maui","ui","crossplatform"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What’s New in ML.NET](/6-whats-new-in-ml-net)
 
 .NET Multi-platform App UI (.NET MAUI) in .NET 9 focuses on improving overall product quality, test coverage, performance, and stability. While previous releases introduced major new capabilities and controls, the emphasis in .NET 9 is on refining the developer experience, ensuring robust cross-platform performance, and preparing the ecosystem for future enhancements.
-
+<!--more-->
 ## Enhanced Quality and Compatibility
 
 Key improvements in .NET MAUI 9 revolve around comprehensive bug fixes, expanded test coverage, and enhanced end-to-end scenario testing. The product quality investments are detailed in the official release notes:

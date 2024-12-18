@@ -2,12 +2,13 @@
 layout: post
 title: "What's New in .NET Libraries for .NET 9"
 tags: ["libraries","serialization","json"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What’s New in .NET MAUI for .NET 9](/7-whats-new-in-dotnet-maui-for-dotnet-9)  
 
 .NET 9 adds a wide range of enhancements and new APIs across the base class libraries. These improvements touch everything from low-level data structures and cryptography to JSON serialization, text processing, spans, and advanced math capabilities. The updates enhance performance, security, flexibility, and developer convenience.
-
+<!--more-->
 ## Base64Url Encoding
 
 .NET 9 introduces the new `Base64Url` class, which encodes/decodes data into a Base64 variant safe for URL use. This variant avoids the `+` and `/` characters present in standard Base64, providing a more suitable encoding for query strings and other URL contexts.

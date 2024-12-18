@@ -2,10 +2,11 @@
 layout: post
 title: "What's New in .NET 9"
 tags: ["dotnet9","framework","release"]
+excerpt_separator: <!--more-->
 ---
 
 .NET 9 introduces a set of features and improvements designed to support modern application development. This release builds on the capabilities introduced in .NET 8, placing a stronger emphasis on cloud-native scenarios, performance optimizations, and improved developer productivity. As a standard-term support (STS) release, .NET 9 receives 18 months of support, giving organizations sufficient time to adopt and integrate it into their workflows.
-
+<!--more-->
 ## Emphasis on Cloud-Native and Containerized Workloads
 
 Cloud-native architectures and container-based deployments are standard practice for modern applications. .NET 9 aligns with these trends by refining the framework’s capabilities for distributed, scalable systems. This includes adjustments to runtime behavior, library enhancements that streamline serialization and network I/O, and improved integration points for AI and machine learning workloads—all of which are increasingly relevant in orchestrated, cloud-hosted environments.

@@ -2,11 +2,13 @@
 layout: post
 title: "What's New in C# 13"
 tags: ["csharp13","language","features"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What’s New in the .NET 9 Runtime](/2-whats-new-in-dotnet-9-runtime)  
-C# 13 introduces a collection of language enhancements that streamline code patterns, enable more powerful generics, improve low-level control, and provide smoother integrations with newer runtime features. These improvements are fully supported on .NET 9, so you can experiment with them using the latest .NET 9 SDK and Visual Studio 2022 releases.
 
+C# 13 introduces a collection of language enhancements that streamline code patterns, enable more powerful generics, improve low-level control, and provide smoother integrations with newer runtime features. These improvements are fully supported on .NET 9, so you can experiment with them using the latest .NET 9 SDK and Visual Studio 2022 releases.
+<!--more-->
 ## Overview
 
 C# 13 adds multiple new features and relaxes certain restrictions, making it easier to write concise, high-performance, and safe code. Key enhancements include:

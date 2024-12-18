@@ -2,12 +2,13 @@
 layout: post
 title: "What's New in ASP.NET Core 9.0"
 tags: ["aspnetcore","web","http"]
+excerpt_separator: <!--more-->
 ---
 
 [← Previous: What’s New in EF Core 9](/4-whats-new-in-ef-core-9)  
 
 ASP.NET Core 9.0 streamlines delivering static assets, enhances Blazor development workflows, expands built-in OpenAPI capabilities, improves SignalR tracing and AOT support, and refines authentication and authorization features. In addition, the release introduces performance optimizations, improved debugging and metrics, and various quality-of-life improvements for developers.
-
+<!--more-->
 ## Static Asset Delivery Optimization
 
 Delivering static assets efficiently is a key part of building high-performance web applications. ASP.NET Core 9.0 introduces `MapStaticAssets`, a new endpoint convention that can replace `UseStaticFiles` in most scenarios. This feature leverages build-time preprocessing to compress and optimize your site’s static resources, including CSS and JavaScript files. Benefits include:
