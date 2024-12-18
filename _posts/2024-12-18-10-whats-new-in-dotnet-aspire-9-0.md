@@ -8,7 +8,7 @@ tags: ["aspire","observability","cloudnative"]
 
 [.NET Aspire](https://github.com/dotnet/aspire) is a set of tools, templates, and packages designed to help developers build observable, production-ready apps that embrace cloud-native and distributed computing best practices. .NET Aspire 9.0 marks a significant evolution, introducing support for both .NET 8 (LTS) and .NET 9 (STS), along with community-driven improvements, enhanced tooling, and richer dashboards.
 
-### Key Highlights
+## Key Highlights
 
 - **.NET 8 and .NET 9 Compatibility:**  
   .NET Aspire 9.0 supports both .NET 8 LTS and .NET 9 STS, giving you the flexibility to adopt whichever runtime best suits your organization's support and innovation needs.
@@ -16,7 +16,7 @@ tags: ["aspire","observability","cloudnative"]
 - **Community-Driven Enhancements:**  
   Many of .NET Aspire 9.0’s features are guided by community feedback. Join the conversation on [Discord](https://aka.ms/dotnet-discord) or contribute on [GitHub](https://github.com/dotnet/aspire) to help shape the future of .NET Aspire.
 
-### Upgrading and Tooling
+## Upgrading and Tooling
 
 **Easier Upgrades to Aspire 9.0:**  
 Upgrading to .NET Aspire 9.0 from previous versions is now simpler. The [official upgrade guide](https://learn.microsoft.com/dotnet/aspire/upgrade) provides detailed steps, whether you’re upgrading manually or using the Upgrade Assistant.
@@ -27,7 +27,7 @@ Previously, .NET Aspire depended on installing workloads. In .NET Aspire 9.0, yo
 **Templates from NuGet Packages:**  
 Templates for creating new .NET Aspire projects have moved to separate NuGet packages. Installing templates now uses `dotnet new install Aspire.ProjectTemplates::9.0.0`, giving you more control over versioning and updates. If you still have the old Aspire workload installed, add `--force` to overwrite existing templates.
 
-### Dashboard and UX Enhancements
+## Dashboard and UX Enhancements
 
 **Resource Lifecycle Management:**  
 You can now start, stop, and restart individual resources directly from the .NET Aspire dashboard. This granular control helps you debug and manage complex applications without restarting everything. When debugging is attached, it reattaches on restart.
@@ -38,12 +38,12 @@ The Aspire dashboard adapts to various screen sizes, improving accessibility and
 **Sensitive Property Masking and Enhanced Logs:**  
 Mark properties as sensitive to automatically mask them in the dashboard, preventing accidental exposure of secrets. Colorful console logs now properly render combined ANSI escape codes, providing richer and more informative logs.
 
-### Telemetry and Observability
+## Telemetry and Observability
 
 **Improved Telemetry Filtering and Browser Support:**  
 Telemetry filtering now supports attribute-based filters with autocompletion, making it easier to focus on relevant traces. You can also combine telemetry from multiple resource replicas and even send telemetry directly from browser-based SPAs into the Aspire dashboard, providing unified observability across clients and servers.
 
-### App Host and Orchestration
+## App Host and Orchestration
 
 **Waiting for Dependencies and Health Checks:**  
 Resources can now wait for dependencies to become ready before starting, leveraging standard .NET health checks. Add HTTP health checks or custom logic to ensure reliable startup sequences. Health check details appear directly in the dashboard.
@@ -54,7 +54,7 @@ Persistent containers continue running outside the app host lifecycle, ideal for
 **Eventing Model and Container Networking:**  
 Hook into global or resource-specific lifecycle events for more customization. All containers now share a default network, simplifying inter-container communication. Converting from Docker Compose becomes more straightforward.
 
-### Integrations and Azure Enhancements
+## Integrations and Azure Enhancements
 
 **Redis Insight and OpenAI Support (Preview):**  
 Integrate Redis Insight for better database observability and configure OpenAI clients more flexibly, choosing between Azure OpenAI or official OpenAI REST endpoints seamlessly.
@@ -68,7 +68,7 @@ One of the most requested features, Azure Functions support, is now in preview. 
 **Customization of Azure Container Apps:**  
 Customize Azure Container App definitions without editing Bicep by using the provided APIs. Scale containers, adjust replicas, and tailor your ACA environment programmatically.
 
-### Conclusion
+## Conclusion
 
 .NET Aspire 9.0 takes another step toward a streamlined, production-ready developer experience. With support for the latest .NET runtimes, a richer dashboard, robust health checks, flexible telemetry, and broader integration capabilities, Aspire 9.0 helps you build, operate, and manage complex distributed applications with confidence and clarity. Whether you’re leveraging .NET 8 LTS stability or embracing .NET 9 innovations, Aspire 9.0 has you covered.
 

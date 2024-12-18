@@ -9,11 +9,11 @@ Entity Framework Core 9 (EF9) continues to evolve as the go-to data access techn
 
 EF9 introduces significant enhancements for working with Azure Cosmos DB, LINQ translations, hierarchical partition keys, and AOT compilation scenarios. It also brings refinements to migrations, model building, and tooling, ensuring a smoother experience for modern data-driven applications.
 
-### Release and Availability
+## Release and Availability
 
 EF9 is scheduled for release in November 2024. Until then, you can use EF9 through daily builds, which contain the latest features and API tweaks. We strongly recommend testing new features against these daily builds to ensure you’re working with the most up-to-date functionality. EF9 supports both .NET 8 (LTS) and .NET 9 (STS), so you can choose the runtime that best fits your needs.
 
-### Major Highlights
+## Major Highlights
 
 **1. Azure Cosmos DB for NoSQL**  
 EF9 brings a comprehensive overhaul of the Azure Cosmos DB provider, including:
@@ -55,13 +55,13 @@ Migrations and database initialization also benefit from enhancements:
 **5. Tooling Improvements**  
 The `dotnet ef` command experiences fewer unnecessary rebuilds, improving developer productivity. The team welcomes feedback to ensure these improvements don’t have unintended consequences.
 
-### Other Notable Updates
+## Other Notable Updates
 
 - **HierarchyId Improvements:** EF9 introduces sugar methods to easily generate child HierarchyId nodes, making hierarchical data handling more intuitive.
 - **More Efficient Negation and Conditional Translations:** EF9 refines the SQL it generates around logical negations, CASE statements, and conditions, often leading to shorter, more direct SQL.
 - **Better Azure SQL and Azure Synapse Support:** EF9 can now target Azure SQL or Azure Synapse specifically, enabling better SQL generation tailored to these environments.
 
-### Conclusion
+## Conclusion
 
 EF Core 9 represents a substantial leap forward in cloud readiness, performance optimization, AOT integration, and interoperability with JSON-based and vector-based workloads. Whether you’re building with Azure Cosmos DB or optimizing SQL queries on relational databases, EF9 delivers greater control, safer migrations, and improved startup times.
 

@@ -8,7 +8,7 @@ tags: ["aspnetcore","web","http"]
 
 ASP.NET Core 9.0 streamlines delivering static assets, enhances Blazor development workflows, expands built-in OpenAPI capabilities, improves SignalR tracing and AOT support, and refines authentication and authorization features. In addition, the release introduces performance optimizations, improved debugging and metrics, and various quality-of-life improvements for developers.
 
-### Static Asset Delivery Optimization
+## Static Asset Delivery Optimization
 
 Delivering static assets efficiently is a key part of building high-performance web applications. ASP.NET Core 9.0 introduces `MapStaticAssets`, a new endpoint convention that can replace `UseStaticFiles` in most scenarios. This feature leverages build-time preprocessing to compress and optimize your site’s static resources, including CSS and JavaScript files. Benefits include:
 
@@ -23,7 +23,7 @@ Delivering static assets efficiently is a key part of building high-performance 
 
 `MapStaticAssets` is ideal for assets known at build and publish time. For more dynamic scenarios or assets served from external sources, `UseStaticFiles` remains a good fit. By default, the optimization works automatically, providing out-of-the-box size reductions of up to 80–90% compared to uncompressed files. This improvement benefits mobile and low-bandwidth environments significantly.
 
-### Blazor Enhancements
+## Blazor Enhancements
 
 **.NET MAUI Blazor Hybrid & Web App Solution Template:**  
 A new template allows you to create .NET MAUI native and Blazor Web apps that share the same UI layer. This solution template offers:
@@ -61,7 +61,7 @@ By default, Interactive Server components now use WebSocket compression and set 
 **Enhanced Navigation Events:**  
 JavaScript callbacks can be triggered before and after “enhanced navigation,” improving how you handle navigation events in Blazor SSR scenarios.
 
-### SignalR Improvements
+## SignalR Improvements
 
 **Polymorphic Type Support in Hubs:**  
 Hub methods can accept base classes, allowing polymorphic binding of derived types. Annotate classes with `[JsonPolymorphic]` and `[JsonDerivedType]` to enable this scenario.
@@ -72,7 +72,7 @@ New `ActivitySource` instrumentation for both server and client hubs helps with 
 **Native AOT and Trimming Support:**  
 SignalR now supports trimming and native AOT scenarios, reducing application size and startup time while maintaining real-time communication capabilities.
 
-### OpenAPI Integration
+## OpenAPI Integration
 
 ASP.NET Core 9.0 introduces first-class OpenAPI document generation via `Microsoft.AspNetCore.OpenApi`. This new capability:
 
@@ -81,7 +81,7 @@ ASP.NET Core 9.0 introduces first-class OpenAPI document generation via `Microso
 - Supports customization through document, operation, and schema transformers.
 - Works seamlessly with trimming and native AOT.
 
-### Authentication and Authorization Updates
+## Authentication and Authorization Updates
 
 **Pushed Authorization Requests (PAR) for OpenID Connect:**  
 The `OpenIdConnectHandler` now supports Pushed Authorization Requests, improving security by sending authorization parameters through back channels rather than the browser’s front channel. This feature is enabled by default if the Identity Provider supports PAR and can be disabled if necessary.
@@ -92,7 +92,7 @@ A new `AdditionalAuthorizationParameters` option allows adding arbitrary query p
 **HTTP.sys Extended Authentication Flags:**  
 Configure Kerberos credential caching and credential capturing via `EnableKerberosCredentialCaching` and `CaptureCredentials` options, optimizing Windows authentication scenarios.
 
-### Miscellaneous Improvements
+## Miscellaneous Improvements
 
 **HybridCache (Preview):**  
 A new HybridCache API merges the best of `IDistributedCache` and `IMemoryCache` with features like stampede protection, customizable serialization, and performance optimizations. It’s intended to simplify caching patterns and minimize duplication of logic.

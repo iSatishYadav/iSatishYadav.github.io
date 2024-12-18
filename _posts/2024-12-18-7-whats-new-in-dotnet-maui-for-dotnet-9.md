@@ -8,7 +8,7 @@ tags: ["maui","ui","crossplatform"]
 
 .NET Multi-platform App UI (.NET MAUI) in .NET 9 focuses on improving overall product quality, test coverage, performance, and stability. While previous releases introduced major new capabilities and controls, the emphasis in .NET 9 is on refining the developer experience, ensuring robust cross-platform performance, and preparing the ecosystem for future enhancements.
 
-### Enhanced Quality and Compatibility
+## Enhanced Quality and Compatibility
 
 Key improvements in .NET MAUI 9 revolve around comprehensive bug fixes, expanded test coverage, and enhanced end-to-end scenario testing. The product quality investments are detailed in the official release notes:
 
@@ -27,7 +27,7 @@ Working with external dependencies like Xcode and Android SDK tools influences .
 **Workload and NuGet Packages:**  
 .NET MAUI ships as both a .NET workload and multiple NuGet packages, enabling developers to pin projects to specific versions or try experimental builds seamlessly. New projects automatically include the required NuGet dependencies.
 
-### New Controls
+## New Controls
 
 **HybridWebView:**  
 The new HybridWebView control allows you to host rich web content (HTML, JS, CSS) within your .NET MAUI app and communicate bidirectionally between JavaScript and C# code. This is ideal for integrating existing React, Vue, or Angular web apps into a cross-platform native shell, leveraging .NET on the back-end.
@@ -35,7 +35,7 @@ The new HybridWebView control allows you to host rich web content (HTML, JS, CSS
 **TitleBar for Windows:**  
 A new TitleBar control lets you create a custom title bar for Windows apps. You can add search bars, icons, and menus directly into the title bar area, improving the UI/UX of your desktop apps. Mac Catalyst support will arrive in a future release.
 
-### Control Enhancements and Behavioral Changes
+## Control Enhancements and Behavioral Changes
 
 - **BackButtonBehavior Binding Mode:**  
   In Shell apps, `IsVisible` and `IsEnabled` on `BackButtonBehavior` now default to `OneWay`, making runtime control of the back button easier via data bindings.
@@ -61,7 +61,7 @@ A new TitleBar control lets you create a custom title bar for Windows apps. You 
 - **WebView Process Termination Handling:**  
   `WebView` introduces a `ProcessTerminated` event to handle unexpected web process endings and recover gracefully.
 
-### Compiled Bindings and Performance
+## Compiled Bindings and Performance
 
 **Compiled Bindings in Code:**  
 .NET MAUI 9 introduces a Func-based approach for defining bindings in code without string paths, improving performance and compile-time validation. Compiled bindings now also support scenarios previously unsupported, like Source-based bindings and multi-bindings.
@@ -72,7 +72,7 @@ XAML compiled bindings have fewer restrictions—bindings that set the `Source` 
 **Dependency Injection and Handler Disconnection:**  
 In Shell apps, page registration with the DI container is no longer mandatory unless you’re customizing lifetime behavior. Handlers now disconnect from their controls automatically in most scenarios (for example, when navigating back), but you can override this with a disconnect policy if desired.
 
-### Platform-Specific Improvements and Features
+## Platform-Specific Improvements and Features
 
 **Multi-Window Activation:**  
 On Mac Catalyst and Windows, you can activate a specific window using `Application.Current?.ActivateWindow(window)`.
@@ -83,7 +83,7 @@ Opt into Native AOT deployment to reduce app size (up to 2.5x smaller), improve 
 **Native Embedding:**  
 .NET MAUI 9 includes full APIs for native embedding scenarios. You can now easily wrap a .NET MAUI view and present it as a native view on Android, iOS, or Mac Catalyst.
 
-### Project Templates, Trimming, and Deprecated APIs
+## Project Templates, Trimming, and Deprecated APIs
 
 **New Project Templates:**  
 The .NET MAUI App project template now includes a sample todo app that uses Syncfusion Toolkit controls and SQLite if you opt in, as well as a .NET MAUI Blazor Hybrid and Web App project template.
@@ -97,7 +97,7 @@ Full trimming support is now available. Trimming-incompatible features are remov
 - Legacy measure calls and compatibility layout classes are deprecated.
 - Certain hybrid features and dynamic serialization are incompatible with full trimming, and you must use feature switches or alternate patterns.
 
-### Upgrading from .NET 8 to .NET 9
+## Upgrading from .NET 8 to .NET 9
 
 To upgrade, update your Target Framework Monikers (TFMs), adopt compiled bindings, remove reliance on deprecated APIs, and consider enabling full trimming and Native AOT where beneficial. Detailed guidance is provided in the official migration instructions.
 

@@ -7,7 +7,7 @@ tags: ["runtime","jit","gc"]
 [← Previous: What's New in .NET 9](1-whats-new-in-dotnet-9.md)  
 The .NET 9 runtime introduces a range of features and optimizations aimed at improving performance, reducing application size, enhancing security, and providing more flexible deployment options. These enhancements target both core runtime components and the JIT compiler, delivering faster execution times, smaller footprints, and safer execution environments.
 
-### Attribute Model for Feature Switches with Trimming Support
+## Attribute Model for Feature Switches with Trimming Support
 
 In .NET 9, two new attributes—`FeatureSwitchDefinitionAttribute` and `FeatureGuardAttribute`—help developers define feature switches that integrate with trimming and Native AOT. By using these attributes, you can toggle areas of functionality at build time, removing unused code paths and reducing application size.
 
@@ -48,7 +48,7 @@ In .NET 9, two new attributes—`FeatureSwitchDefinitionAttribute` and `FeatureG
 
   When publishing with `<PublishAot>true</PublishAot>`, this setup avoids certain analyzer warnings and removes unreachable code paths.
 
-### UnsafeAccessorAttribute Support for Generic Parameters
+## UnsafeAccessorAttribute Support for Generic Parameters
 
 `UnsafeAccessorAttribute`—introduced in .NET 8—allows direct, unsafe access to private type members. In .NET 9, it now supports generic parameters for both CoreCLR and Native AOT scenarios. This expansion enables reflection-free access to generic fields and methods, improving advanced scenarios like performance-sensitive libraries and frameworks.
 
@@ -73,21 +73,21 @@ class Accessors<V>
 
 With this feature, code that previously relied on reflection to manipulate generics can now use `UnsafeAccessorAttribute` for more efficient and predictable access.
 
-### Garbage Collection Improvements
+## Garbage Collection Improvements
 
 **Dynamic adaptation to application sizes (DATAS)**, introduced as an opt-in in .NET 8, is now enabled by default. DATAS adjusts memory usage dynamically based on the application’s long-lived data size. This approach helps the GC maintain a heap size proportional to actual memory requirements, improving overall performance and efficiency in real-world workloads.
 
 For more details, see [Dynamic adaptation to application sizes (DATAS)](https://learn.microsoft.com/dotnet/).
 
-### Control-Flow Enforcement Technology (CET)
+## Control-Flow Enforcement Technology (CET)
 
 CET is now enabled by default on Windows, providing hardware-enforced protection against return-oriented programming (ROP) exploits. CET improves application security by enforcing safer control-flow transitions. Although it may introduce a small performance overhead, CET can be disabled if necessary. This marks a significant step in hardening .NET applications against low-level attacks.
 
-### .NET Install Search Behavior
+## .NET Install Search Behavior
 
 .NET 9 adds configuration options for how apps locate and load the .NET runtime. Developers can now more tightly control the search behavior, which is useful for private runtime installations or ensuring a stable, known environment.
 
-### Performance Improvements Across the Board
+## Performance Improvements Across the Board
 
 The .NET 9 runtime delivers a wide array of performance optimizations. These improvements span JIT compilation, code generation, loop transformations, exception handling, and more. They include:
 
@@ -112,7 +112,7 @@ The .NET 9 runtime delivers a wide array of performance optimizations. These imp
 - **Object Stack Allocation for Boxes:**  
   Situations where value types need to be boxed (for example, passing them as objects) can now be optimized by stack-allocating the box when it doesn’t escape the current method. In some cases, the compiler can even reason about the values and remove the boxes entirely, generating more efficient code and reducing allocations.
 
-### Summary
+## Summary
 
 The .NET 9 runtime brings substantial changes under the hood to deliver faster, more secure, and more efficient applications. Developers benefit from:
 

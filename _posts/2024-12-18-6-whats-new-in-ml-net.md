@@ -7,7 +7,7 @@ tags: ["ml.net","machinelearning","ai"]
 [← Previous: What’s new in ASP.NET Core 9.0](5-whats-new-in-aspnet-core-9-0.md)  
 ML.NET continues to evolve as a full-featured, open-source machine learning framework for .NET developers, enabling you to create, train, and deploy custom ML models directly in your .NET applications. ML.NET 3.0 and 4.0 bring expanded capabilities for advanced AI scenarios—particularly around deep learning tasks, AutoML improvements, and enhanced tokenization support—making it easier to handle complex text and vision problems.
 
-### New Deep-Learning Tasks
+## New Deep-Learning Tasks
 
 **Deep Learning with TorchSharp**  
 ML.NET 3.0 introduces support for several new deep-learning tasks backed by TorchSharp, a .NET library for PyTorch-based deep learning. These tasks include:
@@ -18,13 +18,13 @@ ML.NET 3.0 introduces support for several new deep-learning tasks backed by Torc
 
 All these trainers are included in the `Microsoft.ML.TorchSharp` package. For more details, check out the [Announcing ML.NET 3.0](https://devblogs.microsoft.com/dotnet/announcing-ml-net-3-0/) post.
 
-### AutoML Enhancements
+## AutoML Enhancements
 
 AutoML (Automated Machine Learning) simplifies model selection and hyperparameter tuning by automating the training and evaluation pipeline. ML.NET 3.0 updates the AutoML sweeper to handle new tasks, including sentence similarity, question answering, and object detection. With these improvements, you can quickly experiment with various models and configurations using the AutoML API, reducing the time and expertise required to achieve state-of-the-art results.
 
 For more information, see [How to use the ML.NET Automated Machine Learning (AutoML) API](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/howto-use-automl-api).
 
-### Enhanced Tokenizer Support
+## Enhanced Tokenizer Support
 
 Text tokenization is a crucial step in NLP pipelines, splitting raw text into manageable tokens (words, subwords, or symbols) before feeding it into language models. In ML.NET 4.0, the `Microsoft.ML.Tokenizers` package introduces significant enhancements:
 
@@ -45,7 +45,7 @@ Text tokenization is a crucial step in NLP pipelines, splitting raw text into ma
 
 For examples and more details, see [Announcing ML.NET 2.0](https://devblogs.microsoft.com/dotnet/announcing-ml-net-2-0/) and the updated [tokenization library documentation](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/).
 
-### Model Builder in Visual Studio
+## Model Builder in Visual Studio
 
 Model Builder, the Visual Studio extension that provides a UI-based machine learning workflow, now consumes ML.NET 3.0. Starting from Model Builder version 17.18.0, you can leverage newly introduced scenarios like question answering (QA) and named entity recognition (NER) directly within Visual Studio. This streamlines building advanced NLP pipelines without leaving your IDE.
 
