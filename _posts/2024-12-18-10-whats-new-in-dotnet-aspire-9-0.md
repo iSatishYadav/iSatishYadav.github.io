@@ -4,7 +4,7 @@ title: "What's New in .NET Aspire 9.0"
 tags: ["aspire","observability","cloudnative"]
 ---
 
-[← Previous: What’s New in the SDK and Tooling for .NET 9](9-whats-new-in-the-sdk-and-tooling-for-dotnet-9.md)
+[← Previous: What’s New in the SDK and Tooling for .NET 9](/9-whats-new-in-the-sdk-and-tooling-for-dotnet-9)
 
 [.NET Aspire](https://github.com/dotnet/aspire) is a set of tools, templates, and packages designed to help developers build observable, production-ready apps that embrace cloud-native and distributed computing best practices. .NET Aspire 9.0 marks a significant evolution, introducing support for both .NET 8 (LTS) and .NET 9 (STS), along with community-driven improvements, enhanced tooling, and richer dashboards.
 

@@ -4,7 +4,7 @@ title: "What's New in EF Core 9"
 tags: ["efcore9","data","orm"]
 ---
 
-[← Previous: What’s New in C# 13](3-whats-new-in-csharp-13.md)  
+[← Previous: What’s New in C# 13](/3-whats-new-in-csharp-13)  
 Entity Framework Core 9 (EF9) continues to evolve as the go-to data access technology for .NET, delivering improvements in querying, modeling, migrations, cloud-native integrations, and performance. Building on EF Core 8, EF9 targets .NET 8 but can also be used with .NET 9, giving you flexibility in which runtime you adopt.
 
 EF9 introduces significant enhancements for working with Azure Cosmos DB, LINQ translations, hierarchical partition keys, and AOT compilation scenarios. It also brings refinements to migrations, model building, and tooling, ensuring a smoother experience for modern data-driven applications.
@@ -67,7 +67,7 @@ EF Core 9 represents a substantial leap forward in cloud readiness, performance 
 
 In the next installment, we’ll explore **What’s New in ASP.NET Core 9.0**, examining how the latest changes improve web development, scaling, and performance on the modern web platform.
 
-[Next → What’s new in ASP.NET Core 9.0](5-whats-new-in-aspnet-core-9-0.md)
+[Next → What’s new in ASP.NET Core 9.0](/5-whats-new-in-aspnet-core-9-0)
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

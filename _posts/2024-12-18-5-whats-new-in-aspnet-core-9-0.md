@@ -4,7 +4,7 @@ title: "What's New in ASP.NET Core 9.0"
 tags: ["aspnetcore","web","http"]
 ---
 
-[← Previous: What’s New in EF Core 9](4-whats-new-in-ef-core-9.md)  
+[← Previous: What’s New in EF Core 9](/4-whats-new-in-ef-core-9)  
 
 ASP.NET Core 9.0 streamlines delivering static assets, enhances Blazor development workflows, expands built-in OpenAPI capabilities, improves SignalR tracing and AOT support, and refines authentication and authorization features. In addition, the release introduces performance optimizations, improved debugging and metrics, and various quality-of-life improvements for developers.
 
@@ -124,7 +124,7 @@ Configure custom status codes returned by `ExceptionHandlerMiddleware` based on 
 **Template Updates:**  
 The .NET 9 templates now use the latest versions of Bootstrap, jQuery, and jQuery Validation, ensuring you start with modern, secure, and performant front-end dependencies.
 
-[Next → What’s New in ML.NET](6-whats-new-in-ml-net.md)
+[Next → What’s New in ML.NET](/6-whats-new-in-ml-net)
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

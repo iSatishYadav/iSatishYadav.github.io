@@ -4,7 +4,7 @@ title: "What's New in .NET Libraries for .NET 9"
 tags: ["libraries","serialization","json"]
 ---
 
-[← Previous: What’s New in .NET MAUI for .NET 9](7-whats-new-in-dotnet-maui-for-dotnet-9.md)  
+[← Previous: What’s New in .NET MAUI for .NET 9](/7-whats-new-in-dotnet-maui-for-dotnet-9)  
 
 .NET 9 adds a wide range of enhancements and new APIs across the base class libraries. These improvements touch everything from low-level data structures and cryptography to JSON serialization, text processing, spans, and advanced math capabilities. The updates enhance performance, security, flexibility, and developer convenience.
 
@@ -201,7 +201,7 @@ Interlocked now supports byte, sbyte, short, and ushort, and the generic constra
 
 This extensive set of enhancements in the .NET libraries for .NET 9 caters to performance-focused developers, modern security and cryptography needs, next-gen ML and AI workloads, improved JSON and diagnostics, and more. The changes make the base class libraries more consistent, powerful, and ready for complex, data-intensive scenarios.
 
-[Next → What’s New in the SDK and Tooling for .NET 9](9-whats-new-in-the-sdk-and-tooling-for-dotnet-9.md)  
+[Next → What’s New in the SDK and Tooling for .NET 9](/9-whats-new-in-the-sdk-and-tooling-for-dotnet-9)  
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

@@ -4,7 +4,7 @@ title: "What's New in C# 13"
 tags: ["csharp13","language","features"]
 ---
 
-[← Previous: What’s New in the .NET 9 Runtime](2-whats-new-in-dotnet-9-runtime.md)  
+[← Previous: What’s New in the .NET 9 Runtime](/2-whats-new-in-dotnet-9-runtime)  
 C# 13 introduces a collection of language enhancements that streamline code patterns, enable more powerful generics, improve low-level control, and provide smoother integrations with newer runtime features. These improvements are fully supported on .NET 9, so you can experiment with them using the latest .NET 9 SDK and Visual Studio 2022 releases.
 
 ## Overview
@@ -163,7 +163,7 @@ C# 13 brings a wide range of enhancements that improve language flexibility, per
 
 In the next installment, we’ll look into **What’s New in EF Core 9**, including updates for Azure Cosmos DB, AOT compilation, and more.
 
-[Next → What’s New in EF Core 9](4-whats-new-in-ef-core-9.md)  
+[Next → What’s New in EF Core 9](/4-whats-new-in-ef-core-9)  
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

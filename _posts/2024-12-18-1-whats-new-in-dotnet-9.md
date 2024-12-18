@@ -61,7 +61,7 @@ The .NET team actively posts .NET 9 preview updates and discussions on GitHub, a
 - Explore the official documentation for detailed guidance on new APIs, runtime settings, and advanced scenarios.  
 - Check out .NET 9 GitHub Discussions for ongoing previews, Q&A, and community feedback.
 
-[Next → What’s New in the .NET 9 Runtime](2-whats-new-in-dotnet-9-runtime.md)  
+[Next → What’s New in the .NET 9 Runtime](/2-whats-new-in-dotnet-9-runtime)  
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

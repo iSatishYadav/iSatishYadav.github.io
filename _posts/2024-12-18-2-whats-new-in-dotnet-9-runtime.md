@@ -4,7 +4,7 @@ title: "What's New in the .NET 9 Runtime"
 tags: ["runtime","jit","gc"]
 ---
 
-[← Previous: What's New in .NET 9](1-whats-new-in-dotnet-9.md)  
+[← Previous: What's New in .NET 9](/1-whats-new-in-dotnet-9)  
 The .NET 9 runtime introduces a range of features and optimizations aimed at improving performance, reducing application size, enhancing security, and providing more flexible deployment options. These enhancements target both core runtime components and the JIT compiler, delivering faster execution times, smaller footprints, and safer execution environments.
 
 ## Attribute Model for Feature Switches with Trimming Support
@@ -123,7 +123,7 @@ The .NET 9 runtime brings substantial changes under the hood to deliver faster, 
 
 In the next part, we’ll explore **What’s new in C# 13**, the language updates accompanying this release, and how they integrate with the runtime to provide a more productive and modern development experience.
 
-[Next → What’s New in C# 13](3-whats-new-in-csharp-13.md)
+[Next → What’s New in C# 13](/3-whats-new-in-csharp-13)
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

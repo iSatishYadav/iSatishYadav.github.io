@@ -4,7 +4,7 @@ title: "What's New in the SDK and Tooling for .NET 9"
 tags: ["sdk","tooling","productivity"]
 ---
 
-[← Previous: What’s New in .NET Libraries for .NET 9](8-whats-new-in-dotnet-libraries-for-dotnet-9.md)
+[← Previous: What’s New in .NET Libraries for .NET 9](/8-whats-new-in-dotnet-libraries-for-dotnet-9)
 
 The .NET 9 SDK introduces several new capabilities and improvements to streamline development workflows, enhance build and test experiences, improve NuGet security and performance, and provide greater flexibility in managing .NET workloads and containers. These updates make the overall .NET ecosystem more productive, secure, and maintainable.
 
@@ -74,7 +74,7 @@ These rules help keep code robust, efficient, and aligned with .NET best practic
 
 In summary, the SDK and tooling improvements in .NET 9 focus on accelerating feedback loops (faster tests, better terminal output), strengthening security (enhanced NuGet auditing), providing more stable build environments (workload sets, build checks), and granting developers flexibility in container scenarios and runtime configurations. These enhancements streamline daily workflows, reduce complexity, and empower developers to maintain high-quality, secure, and performant .NET applications.
 
-[Next → What’s New in .NET Aspire 9.0](10-whats-new-in-dotnet-aspire-9-0.md)
+[Next → What’s New in .NET Aspire 9.0](/10-whats-new-in-dotnet-aspire-9-0)
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 

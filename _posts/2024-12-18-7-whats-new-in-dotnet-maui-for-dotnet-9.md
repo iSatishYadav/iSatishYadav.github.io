@@ -4,7 +4,7 @@ title: "What's New in .NET MAUI for .NET 9"
 tags: ["maui","ui","crossplatform"]
 ---
 
-[← Previous: What’s New in ML.NET](6-whats-new-in-ml-net.md)
+[← Previous: What’s New in ML.NET](/6-whats-new-in-ml-net)
 
 .NET Multi-platform App UI (.NET MAUI) in .NET 9 focuses on improving overall product quality, test coverage, performance, and stability. While previous releases introduced major new capabilities and controls, the emphasis in .NET 9 is on refining the developer experience, ensuring robust cross-platform performance, and preparing the ecosystem for future enhancements.
 
@@ -105,7 +105,7 @@ To upgrade, update your Target Framework Monikers (TFMs), adopt compiled binding
 
 In short, .NET MAUI 9 concentrates on quality, stability, and performance improvements, making it easier than ever to build high-quality, well-performing cross-platform apps. The introduction of `HybridWebView`, `TitleBar`, enhanced bindings, and improved platform integration paves the way for more flexible and efficient MAUI development moving forward.
 
-[Next → What’s New in .NET Libraries for .NET 9](8-whats-new-in-dotnet-libraries-for-dotnet-9.md)
+[Next → What’s New in .NET Libraries for .NET 9](/8-whats-new-in-dotnet-libraries-for-dotnet-9)
 
 **Subscribe to the blog** to stay updated on the latest .NET developments!
 
